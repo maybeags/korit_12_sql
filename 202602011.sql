@@ -1,4 +1,4 @@
-SELECT * FROM users u CROSS JOIN orders o ORDER BY u.id;
+play_ddlSELECT * FROM users u CROSS JOIN orders o ORDER BY u.id;
 
 SELECT u.id, u.username, u.country, s.last_name, s.first_name FROM users u inner JOIN staff s ON u.id = s.user_id;
 
